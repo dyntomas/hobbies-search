@@ -1,0 +1,33 @@
+body {
+    font-size: 15pt;
+    background: lightgray;
+}
+a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+span {
+  padding: 5px 5px
+}
+
+.list-item {
+  float: left;
+  width: fit-content;
+  padding: 0 10px;
+  background: gray;
+  border-radius: 15px;
+}
+
+#search {
+  width: 100%; /* Full-width */
+  max-width: 800px;
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+#boxes {
+  content: "";
+  display: table;
+  clear: both;
+}
