@@ -12,13 +12,13 @@ async function hobbiesData() {
 Document ready event
 ===============================*/
 document.addEventListener("DOMContentLoaded", async () => {
-  let list = document.querySelector('#list'),
+  let list = document.querySelector('#boxes'),
     input = document.querySelector('#search');
 
   await hobbiesData().then(hobbies => {
     hobbies.map(item => {
       let color = "#" + (Math.floor(Math.random() * 899999) + 100000)
-      list.innerHTML += `<div class="list-item" style="background: ${color}"><a href="https://duckduckgo.com/?q=${item.title} hobbie">${item.title}</a></div>`;
+      list.innerHTML += `<div class="box" style="background: ${color}"><a href="https://duckduckgo.com/?q=${item.title} hobbie">${item.title}</a></div>`;
 
     });
 
