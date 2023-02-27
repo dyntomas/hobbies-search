@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     input = document.querySelector('#search');
 
   await hobbiesData().then(hobbies => {
-    hobbies.map(item => {
+    hobbies.map((item, ind) => {
       let color = "#" + (Math.floor(Math.random() * 899999) + 100000)
-      list.innerHTML += `<div class="box" style="background: ${color}"><a href="https://duckduckgo.com/?q=${item.title} hobbie">${item.title}</a></div>`;
+      list.innerHTML += `<div class="box" style="background: ${color}" id="${ind}"><a href="https://duckduckgo.com/?q=${item.title} hobbie" target="_blank">${item.title}</a></div>`;
 
     });
 
@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       a = box[i].querySelector("a");
       txtValue = a.textContent || a.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > 0) {
-        box[i].hidden = false;
+        box[i].style.display = "block";
       } else {
-        box[i].hidden = true;
+        box[i].style.display = "none";
       }
     }
 
