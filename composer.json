@@ -6,13 +6,13 @@
     "learnmore"
   ],
   "description": "A list of hobbies to learn more about or try out",
+  "homepage": "https://hobbies.dyntomas.com/",
   "type": "project",
   "license": "GPL-2.0-only",
   "minimum-stability": "stable",
   "authors": [
     {
       "name": "TriHydera",
-      "homepage": "https://hobbies.dyntomas.com/",
       "role": "Developer"
     }
   ]
