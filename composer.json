@@ -1,9 +1,19 @@
 {
-    "name": "dyntomas/hobbies-search",
-    "tags": ["webapp", "research", "learnmore", "discussion"],
-    "description": "A list of hobbies to learn more about or try out",
-    "type": "project",
-    "license": "GPL-2.0-only",
-    "minimum-stability": "stable",
-"authors": [ { "name": "TriHydera", "homepage": "https://hobbies.dyntomas.com/", "role": "Developer" }
+  "name": "dyntomas/hobbies-search",
+  "tags": [
+    "webapp",
+    "research",
+    "learnmore"
+  ],
+  "description": "A list of hobbies to learn more about or try out",
+  "type": "project",
+  "license": "GPL-2.0-only",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "TriHydera",
+      "homepage": "https://hobbies.dyntomas.com/",
+      "role": "Developer"
+    }
+  ]
 }
