@@ -1,0 +1,30 @@
+{
+  "name": "@dyntomas/hobbies-search",
+  "description": "",
+  "version": "1.1.1",
+  "homepage": "https://hobbies.dyntomas.com/",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build:dev": "webpack --mode development --watch",
+    "build:prod": "webpack --mode production"
+  },
+  "keywords": [
+    "webapp",
+    "research"
+  ],
+  "author": "TriHydera",
+  "license": "GPL-2.0-only",
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "css-minimizer-webpack-plugin": "^6.0.0",
+    "filemanager-webpack-plugin": "^8.0.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "purgecss-webpack-plugin": "^7.0.2",
+    "terser-webpack-plugin": "^5.3.10",
+    "workbox-webpack-plugin": "^7.4.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "w3-css": "^4.1.0"
+  }
+}
