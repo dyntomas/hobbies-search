@@ -45,14 +45,15 @@ p {
 #search,
 p {
     width: 100%;
-    max-width: 800px
+    max-width: 800px;
+    border-radius: 10px;
 }
 
 #search {
     font-size: 16px;
     padding: 12px 20px 12px;
     border: 1px solid #ddd;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 
 #boxes {

@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", async () => {
      * @returns {string}
      */
     function getUrl(term) {
-        return `https://duckduckgo.com/?q=${term}+hobbie`
+        return `https://duckduckgo.com/?q=${term.replaceAll(" ", "+")}+hobbie`
     }
 
     /***************************************/
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     /***************************************/
     configjson.forEach((item, ind) => {
         let color = "#" + (Math.floor(899999 * Math.random()) + 1e5);
-        list.innerHTML += `<div class="box" style="background: ${color}" id="${ind}"><a href="${getUrl(item.name)}" target="_blank">${item.title}</a></div>`
+        list.innerHTML += `<div class="box" style="background: ${color}"><a href="${getUrl(item.title)}" target="_blank">${item.title}</a></div>`
     })
     const box = document.querySelectorAll(".box");
 
@@ -42,12 +42,12 @@ document.addEventListener("DOMContentLoaded", async () => {
          */
         let filter = search.value.toLowerCase()
 
-            box.forEach(_box => {
-                if (_box.innerText.includes(filter) || _box.innerText.startsWith(filter)) {
-                    _box.style.display = "block"
-                } else {
-                    _box.style.display = "none"
-                }
-            })
+        box.forEach(_box => {
+            if (new RegExp(filter, "g").test(_box.innerText)) {
+                _box.style.display = "block"
+            } else {
+                _box.style.display = "none"
+            }
+        })
     })
 });
