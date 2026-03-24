@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", async () => {
     /**
+      * @type {string}
+      */
+    const config = require('../data/config.base64');
+    /**
      * @type {string}
      */
-    const config = require('../data/config.base64');
+    const { version } = require('../../package.json');
 
     const list = document.querySelector("#boxes")
     const search = document.querySelector("#search")
@@ -32,6 +36,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         list.innerHTML += `<div class="box" style="background: ${color}"><a href="${getUrl(item.title)}" target="_blank">${item.title}</a></div>`
     })
     const box = document.querySelectorAll(".box");
+    document.querySelector("#version").innerText = version
+    document.querySelector("#sitename").innerText = document.querySelector("title").innerText
 
     /***************************************/
     // * Search box
@@ -43,11 +49,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         let filter = search.value.toLowerCase()
 
         box.forEach(_box => {
-            if (new RegExp(filter, "g").test(_box.innerText)) {
+            if (new RegExp(filter, "gi").test(_box.innerText)) {
                 _box.style.display = "block"
             } else {
                 _box.style.display = "none"
             }
         })
     })
+});
+
+document.addEventListener('contextmenu', (e) => {
+  if (e.target.tagName === 'IMG') {
+    e.preventDefault();
+  }
 });

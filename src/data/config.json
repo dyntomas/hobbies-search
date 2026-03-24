@@ -1120,11 +1120,6 @@
         "subCategory": "Outdoors"
     },
     {
-        "title": "Lacrosse",
-        "category": "General",
-        "subCategory": "Outdoors"
-    },
-    {
         "title": "LARPing",
         "category": "General",
         "subCategory": "Outdoors"
@@ -1871,11 +1866,6 @@
     },
     {
         "title": "Fencing",
-        "category": "Competitive",
-        "subCategory": "Indoors"
-    },
-    {
-        "title": "Go",
         "category": "Competitive",
         "subCategory": "Indoors"
     },

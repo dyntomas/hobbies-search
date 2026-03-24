@@ -2,24 +2,31 @@
   color-scheme: light only;
 }
 
-body {
-    font-size: 15pt;
-    background: url(../assets/img/background.jpg) #d3d3d3;
-    height: 100vh;
-    width: 100vw;
-    background-position: center;
-    background-repeat: repeat-y;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0; 
-}
-
 a {
     text-decoration: none;
     color: #f8f8ff
 }
 
-p {
+body {
+    font-size: 15pt;
+    background: url(../assets/img/background.jpg) #d3d3d3;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0;
+    height: 100vh;
+    width: 100%;
+    user-select: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+#content p {
     font-size: 20px;
     padding: 5px 5px;
     background: #1fa532;
@@ -27,25 +34,20 @@ p {
     color: #fff
 }
 
-.box {
+#boxes,
+#search,
+#content p {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+#boxes .box {
     float: left;
     width: fit-content;
     padding: 5px 20px;
     margin: 5px 5px;
     background: gray;
-    border-radius: 10px
-}
-
-.logo {
-    width: 90%;
-    max-width: 800px
-}
-
-#boxes,
-#search,
-p {
-    width: 100%;
-    max-width: 800px;
     border-radius: 10px;
 }
 
@@ -56,8 +58,7 @@ p {
     margin-bottom: 12px;
 }
 
-#boxes {
-    content: "";
-    display: table;
-    clear: both
+.logo {
+    width: 90%;
+    max-width: 800px
 }

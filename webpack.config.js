@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-// const { PurgeCSSPlugin } = require("purgecss-webpack-plugin");
 const { GenerateSW } = require('workbox-webpack-plugin');
 
 const mode = process.env.NODE_ENV || "production";
@@ -49,10 +48,6 @@ const config = {
         new MiniCssExtractPlugin({
             filename: "[name].css"
         }),
-        // new PurgeCSSPlugin({
-        //     paths: glob.sync(`${path.resolve(__dirname, 'public')}/*`, { nodir: true }),
-        //     safelist: []
-        // }),
         new GenerateSW({
             swDest: "../sw.js",
             runtimeCaching: [{

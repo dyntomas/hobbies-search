@@ -1,0 +1,18 @@
+#infobox {
+    font-family: calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    background-color: darkgray;
+    color: black;
+    width: 300px;
+    font-size: 20px;
+}
+
+#infobox p {
+    margin: 0 0;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
