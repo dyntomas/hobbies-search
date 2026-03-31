@@ -1,7 +1,7 @@
 {
   "name": "@dyntomas/hobbies-search",
   "description": "",
-  "version": "1.1.1-24032026",
+  "version": "1.2-31032026",
   "homepage": "https://hobbies.dyntomas.com/",
   "main": "webpack.config.js",
   "scripts": {

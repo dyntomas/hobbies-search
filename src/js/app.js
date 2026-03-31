@@ -1,14 +1,21 @@
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function select(target) {
+    return document.querySelector(target)
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     /**
       * @type {string}
       */
     const config = require('../data/config.base64');
-    /**
-     * @type {string}
-     */
-    const { version } = require('../../package.json');
-
-    const list = document.querySelector("#boxes")
+    const version = "1.2-31032026";
     const search = document.querySelector("#search")
     /**
      * @type {Array<Object>}
@@ -31,17 +38,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     /***************************************/
     // * Page content
     /***************************************/
-    configjson.forEach((item, ind) => {
+    shuffle(configjson).forEach((item, ind) => {
         let color = "#" + (Math.floor(899999 * Math.random()) + 1e5);
-        list.innerHTML += `<div class="box" style="background: ${color}"><a href="${getUrl(item.title)}" target="_blank">${item.title}</a></div>`
+        /**
+         * @type {HTMLElement}
+         */
+        const html = `<div class="box" style="background: ${color}" data-meta="${item. category};${item. subCategory}"><a href="${getUrl(item.title)}" target="_blank">${item.title}</a></div>`
+
+        document.querySelector("#boxes").innerHTML += html
     })
-    const box = document.querySelectorAll(".box");
-    document.querySelector("#version").innerText = version
-    document.querySelector("#sitename").innerText = document.querySelector("title").innerText
 
     /***************************************/
     // * Search box
     /***************************************/
+    const box = document.querySelectorAll(".box");
+
     search.addEventListener("keyup", () => {
         /**
          * @type {string}
@@ -49,17 +60,26 @@ document.addEventListener("DOMContentLoaded", async () => {
         let filter = search.value.toLowerCase()
 
         box.forEach(_box => {
-            if (new RegExp(filter, "gi").test(_box.innerText)) {
+            if (new RegExp(filter, "gi").test(_box.innerText) || new RegExp(filter, "gi").test(_box.dataset.meta)) {
                 _box.style.display = "block"
             } else {
                 _box.style.display = "none"
             }
         })
     })
-});
 
+        /***************************************/
+    // * Infobox
+    /***************************************/
+    select("#version").innerText = version
+    select("#sitename").innerText = document.querySelector("title").innerText
+
+    /***************************************/
+    // * Disable Right-click Image
+    /***************************************/
 document.addEventListener('contextmenu', (e) => {
   if (e.target.tagName === 'IMG') {
     e.preventDefault();
   }
+});
 });

@@ -1,16 +1,16 @@
-# Release 1.1.1
+# Release 1.2
 
 ## Features
 
 - Spaced out buttons
 - Scrolling background image
+- Now installable as a `PWA`
+- List now random
 
 ## Technical
 
 - Config now in code as `base64`
-- Fix search box (now ignores case)
-- Fix layout issues
-- Removed useless styles
+- Search box now working
+- Removed useless `CSS`
 - Removed `X-UA-Compatible` meta tag
-- Fix ServiceWorker and PWA issue
 - Replaced `Font Awesome` with `Fontello`
