@@ -6,6 +6,7 @@
 - Scrolling background image
 - Now installable as a `PWA`
 - List now random
+- More filters for items
 
 ## Technical
 
@@ -14,3 +15,4 @@
 - Removed useless `CSS`
 - Removed `X-UA-Compatible` meta tag
 - Replaced `Font Awesome` with `Fontello`
+- Fix images and scaling

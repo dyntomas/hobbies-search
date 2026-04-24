@@ -226,7 +226,7 @@
     },
     {
         "title": "Do it yourself",
-        "category": "General",
+        "category": "DIY",
         "subCategory": "Indoors"
     },
     {
@@ -236,7 +236,7 @@
     },
     {
         "title": "Drawing",
-        "category": "General",
+        "category": "General/Art",
         "subCategory": "Indoors"
     },
     {
@@ -356,7 +356,7 @@
     },
     {
         "title": "Home improvement",
-        "category": "DIY",
+        "category": "DIY/Building",
         "subCategory": "Indoors"
     },
     {
@@ -461,12 +461,12 @@
     },
     {
         "title": "Lego building",
-        "category": "Fun",
+        "category": "Fun/Building",
         "subCategory": "Indoors"
     },
     {
         "title": "Listening to music",
-        "category": "General",
+        "category": "General/Music",
         "subCategory": "Indoors"
     },
     {
@@ -591,7 +591,7 @@
     },
     {
         "title": "Quilling",
-        "category": "General",
+        "category": "Art",
         "subCategory": "Indoors"
     },
     {
@@ -691,17 +691,17 @@
     },
     {
         "title": "Stamp collecting",
-        "category": "General",
+        "category": "Collection",
         "subCategory": "Indoors"
     },
     {
         "title": "Table tennis",
-        "category": "General",
+        "category": "Competitive",
         "subCategory": "Indoors"
     },
     {
         "title": "Tarot",
-        "category": "General",
+        "category": "Observation",
         "subCategory": "Indoors"
     },
     {
@@ -786,17 +786,22 @@
     },
     {
         "title": "Wood carving",
-        "category": "General",
+        "category": "Woodworking",
         "subCategory": "Indoors"
     },
     {
         "title": "Woodworking",
-        "category": "DIY",
+        "category": "DIY/Building",
         "subCategory": "Indoors"
     },
     {
         "title": "Worldbuilding",
         "category": "General",
+        "subCategory": "Indoors"
+    },
+        {
+        "title": "Bird house making",
+        "category": "DIY/Woodworking",
         "subCategory": "Indoors"
     },
     {
@@ -981,7 +986,7 @@
     },
     {
         "title": "Flag football",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -1005,18 +1010,38 @@
         "subCategory": "Outdoors"
     },
     {
+        "title": "Tree climbing",
+        "category": "Nature",
+        "subCategory": "Outdoors"
+    },
+    {
+        "title": "Bush sculptures",
+        "category": "Nature",
+        "subCategory": "Outdoors"
+    },
+    {
+        "title": "Trailcams",
+        "category": "Nature",
+        "subCategory": "Outdoors"
+    },
+    {
         "title": "Fossicking",
         "category": "General",
         "subCategory": "Outdoors"
     },
     {
         "title": "Freestyle football",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Gardening",
         "category": "General",
+        "subCategory": "Outdoors"
+    },
+    {
+        "title": "Growing fruit and veg",
+        "category": "General/Gardening",
         "subCategory": "Outdoors"
     },
     {
@@ -1326,7 +1351,7 @@
     },
     {
         "title": "Snowboarding",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -1336,12 +1361,12 @@
     },
     {
         "title": "Snowshoeing",
-        "category": "General",
+        "category": "Traveling",
         "subCategory": "Outdoors"
     },
     {
         "title": "Football",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -1381,7 +1406,7 @@
     },
     {
         "title": "Tennis",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -1621,12 +1646,12 @@
     },
     {
         "title": "Record collecting",
-        "category": "Collection",
+        "category": "Collection/Music",
         "subCategory": "Indoors"
     },
     {
         "title": "Rock tumbling",
-        "category": "Collection",
+        "category": "Collection/Nature",
         "subCategory": "Indoors"
     },
     {
@@ -1641,7 +1666,7 @@
     },
     {
         "title": "Slot car",
-        "category": "Collection",
+        "category": "Collection/Building",
         "subCategory": "Indoors"
     },
     {
@@ -1671,7 +1696,7 @@
     },
     {
         "title": "Transit map collecting",
-        "category": "Collection",
+        "category": "Collection/Transport",
         "subCategory": "Indoors"
     },
     {
@@ -1681,7 +1706,7 @@
     },
     {
         "title": "Vintage cars",
-        "category": "Collection",
+        "category": "Collection/Transport",
         "subCategory": "Indoors"
     },
     {
@@ -1691,7 +1716,7 @@
     },
     {
         "title": "Vinyl Records",
-        "category": "Collection",
+        "category": "Collection/Music",
         "subCategory": "Indoors"
     },
     {
@@ -1755,23 +1780,18 @@
         "subCategory": "Outdoors"
     },
     {
-        "title": "Animal fancy",
-        "category": "Competitive",
-        "subCategory": "Indoors"
-    },
-    {
         "title": "Axe throwing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Backgammon",
-        "category": "Competitive",
+        "category": "Competitive/Board games",
         "subCategory": "Indoors"
     },
     {
         "title": "Badminton",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
@@ -1786,27 +1806,27 @@
     },
     {
         "title": "Billiards",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Bowling",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Boxing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Bridge",
-        "category": "Competitive",
+        "category": "Competitive/Card games",
         "subCategory": "Indoors"
     },
     {
         "title": "Checkers (draughts)",
-        "category": "Competitive",
+        "category": "Competitive/Board games",
         "subCategory": "Indoors"
     },
     {
@@ -1816,22 +1836,22 @@
     },
     {
         "title": "Chess",
-        "category": "Competitive",
+        "category": "Competitive/Board games",
         "subCategory": "Indoors"
     },
     {
         "title": "Color guard",
-        "category": "Competitive",
+        "category": "Competitive/Board games",
         "subCategory": "Indoors"
     },
     {
         "title": "Cribbage",
-        "category": "Competitive",
+        "category": "Competitive/Card games",
         "subCategory": "Indoors"
     },
     {
         "title": "Curling",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
@@ -1841,7 +1861,7 @@
     },
     {
         "title": "Darts",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
@@ -1851,52 +1871,47 @@
     },
     {
         "title": "Dominoes",
-        "category": "Competitive",
-        "subCategory": "Indoors"
-    },
-    {
-        "title": "Eating",
-        "category": "Competitive",
+        "category": "Competitive/Table top",
         "subCategory": "Indoors"
     },
     {
         "title": "Esports",
-        "category": "Competitive",
+        "category": "Competitive/Computer games",
         "subCategory": "Indoors"
     },
     {
         "title": "Fencing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Gymnastics",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Ice hockey",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Ice skating",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Judo",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Martial Arts",
         "subCategory": "Indoors"
     },
     {
         "title": "Jujitsu",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Martial Arts",
         "subCategory": "Indoors"
     },
     {
         "title": "Kabaddi",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
@@ -1906,17 +1921,17 @@
     },
     {
         "title": "Laser tag",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Longboarding",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Mahjong",
-        "category": "Competitive",
+        "category": "Competitive/Table top",
         "subCategory": "Indoors"
     },
     {
@@ -1930,18 +1945,13 @@
         "subCategory": "Indoors"
     },
     {
-        "title": "Model United Nations",
-        "category": "Competitive",
-        "subCategory": "Indoors"
-    },
-    {
         "title": "Poker",
-        "category": "Competitive",
+        "category": "Competitive/Card games",
         "subCategory": "Indoors"
     },
     {
         "title": "Pool",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
@@ -1951,7 +1961,7 @@
     },
     {
         "title": "Shogi",
-        "category": "Competitive",
+        "category": "Competitive/Board games",
         "subCategory": "Indoors"
     },
     {
@@ -1961,7 +1971,7 @@
     },
     {
         "title": "Speedcubing",
-        "category": "Competitive",
+        "category": "Competitive/Toys",
         "subCategory": "Indoors"
     },
     {
@@ -1971,62 +1981,52 @@
     },
     {
         "title": "Table football",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Table top",
         "subCategory": "Indoors"
     },
     {
         "title": "Table tennis",
-        "category": "Competitive",
-        "subCategory": "Indoors"
-    },
-    {
-        "title": "Volleyball",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Table top",
         "subCategory": "Indoors"
     },
     {
         "title": "Weightlifting",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Wrestling",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Indoors"
     },
     {
         "title": "Airsoft",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Archery",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Association football",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Australian rules football",
-        "category": "Competitive",
-        "subCategory": "Outdoors"
-    },
-    {
-        "title": "Auto racing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Baseball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Beach volleyball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2036,37 +2036,37 @@
     },
     {
         "title": "Climbing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Cricket",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Croquet",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Cycling",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Disc golf",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Dog sport",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Pets",
         "subCategory": "Outdoors"
     },
     {
         "title": "Equestrianism",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2076,47 +2076,47 @@
     },
     {
         "title": "Field hockey",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Figure skating",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Fishing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Footbag",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Frisbee",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Golfing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Handball",
-        "category": "Competitive",
+        "category": "Competitive/Card games",
         "subCategory": "Outdoors"
     },
     {
         "title": "Horseback riding",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Equestrianism",
         "subCategory": "Outdoors"
     },
     {
         "title": "Horseshoes",
-        "category": "Competitive",
+        "category": "Competitive/Equestrianism",
         "subCategory": "Outdoors"
     },
     {
@@ -2126,32 +2126,32 @@
     },
     {
         "title": "Jukskei",
-        "category": "Competitive",
+        "category": "Competitive/folk sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Kart racing",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Transport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Knife throwing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Lacrosse",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Longboarding",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Long-distance running",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2161,7 +2161,7 @@
     },
     {
         "title": "Model aircraft",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2171,27 +2171,27 @@
     },
     {
         "title": "Pickleball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Quidditch",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Race walking",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Racquetball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Radio-controlled car racing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2206,62 +2206,62 @@
     },
     {
         "title": "Shooting sport",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Skateboarding",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Skiing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Sled dog racing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Softball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Speed skating",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Squash",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Surfing",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Swimming",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Table tennis",
-        "category": "Competitive",
+        "category": "Competitive/Sport/Table top",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tennis",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tennis polo",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -2271,42 +2271,37 @@
     },
     {
         "title": "Tour skating",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tourism",
-        "category": "Competitive",
+        "category": "Exploring",
         "subCategory": "Outdoors"
     },
     {
         "title": "Trapshooting",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Triathlon",
-        "category": "Competitive",
-        "subCategory": "Outdoors"
-    },
-    {
-        "title": "Ultimate frisbee",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Volleyball",
-        "category": "Competitive",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Water polo",
-        "category": "Competitive",
+        "category": "Competitive/Riding",
         "subCategory": "Outdoors"
     },
     {
         "title": "Fishkeeping",
-        "category": "Observation",
+        "category": "Observation/Nature",
         "subCategory": "Indoors"
     },
     {
@@ -2316,7 +2311,7 @@
     },
     {
         "title": "Meditation",
-        "category": "Observation",
+        "category": "Observation/Relaxing",
         "subCategory": "Indoors"
     },
     {
@@ -2336,37 +2331,37 @@
     },
     {
         "title": "Shortwave listening",
-        "category": "Observation",
+        "category": "Music",
         "subCategory": "Indoors"
     },
     {
         "title": "Audiophile",
-        "category": "Observation",
+        "category": "Music",
         "subCategory": "Indoors"
     },
     {
         "title": "Plane spotting",
-        "category": "Observation",
+        "category": "Observation/Transport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Amateur astronomy",
-        "category": "Observation",
+        "category": "Observation/Space",
         "subCategory": "Outdoors"
     },
     {
         "title": "Birdwatching",
-        "category": "Observation",
+        "category": "Observation/Nature",
         "subCategory": "Outdoors"
     },
     {
         "title": "Bus spotting",
-        "category": "Observation",
+        "category": "Observation/Transport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Geocaching",
-        "category": "Observation",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
@@ -2386,7 +2381,7 @@
     },
     {
         "title": "Meteorology",
-        "category": "Observation",
+        "category": "Observation/Space",
         "subCategory": "Outdoors"
     },
     {
@@ -2396,22 +2391,22 @@
     },
     {
         "title": "Satellite watching",
-        "category": "Observation",
+        "category": "Observation/Space",
         "subCategory": "Outdoors"
     },
     {
         "title": "Train spotting",
-        "category": "Observation",
+        "category": "Observation/Travel/Transport",
         "subCategory": "Outdoors"
     },
         {
         "title": "Train riding",
-        "category": "Observation",
+        "category": "Observation/Travel/Transport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Whale watching",
-        "category": "Observation",
+        "category": "Observation/Nature",
         "subCategory": "Outdoors"
     }
 ]

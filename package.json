@@ -1,7 +1,7 @@
 {
   "name": "@dyntomas/hobbies-search",
   "description": "",
-  "version": "1.2-31032026",
+  "version": "1.2-24042026",
   "homepage": "https://hobbies.dyntomas.com/",
   "main": "webpack.config.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "filemanager-webpack-plugin": "^8.0.0",
     "mini-css-extract-plugin": "^2.9.0",
     "terser-webpack-plugin": "^5.3.10",
-    "workbox-webpack-plugin": "7.0.0"
+    "workbox-webpack-plugin": "^7.0.0"
   }
 }

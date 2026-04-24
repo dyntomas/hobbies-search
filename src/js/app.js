@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       * @type {string}
       */
     const config = require('../data/config.base64');
-    const version = "1.2-31032026";
+    const version = "1.2-24042026";
     const search = document.querySelector("#search")
     /**
      * @type {Array<Object>}
