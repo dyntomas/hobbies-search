@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { GenerateSW } = require('workbox-webpack-plugin');
 
 const mode = process.env.NODE_ENV || "production";
@@ -11,8 +12,9 @@ const config = {
     mode,
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, 'public/assets'),
-        filename: '[name].js'
+        path: path.resolve(__dirname, 'public'),
+        filename: 'assets/[name].[contenthash].js',
+        clean: true
     },
     module: {
         rules: [
@@ -33,6 +35,9 @@ const config = {
         ]
     },
     plugins: [
+        new HtmlWebpackPlugin({
+            // hash: true
+        }),
         new FileManagerPlugin({
             events: {
                 onEnd: {
@@ -46,10 +51,10 @@ const config = {
             }
         }),
         new MiniCssExtractPlugin({
-            filename: "[name].css"
+            filename: "assets/[name].[contenthash].css"
         }),
         new GenerateSW({
-            swDest: "../sw.js",
+            swDest: "sw.js",
             runtimeCaching: [{
                 handler: "CacheFirst",
                 urlPattern: new RegExp("/*"),
@@ -57,7 +62,6 @@ const config = {
                     cacheName: `app-${require("./package.json").version}`
                 }
             }],
-            exclude: ["main.js", "main.css"],
             skipWaiting: true
         })
     ],

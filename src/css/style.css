@@ -9,14 +9,10 @@ a {
 
 body {
     font-size: 20px;
-    background: url(../assets/img/background.jpg) #d3d3d3;
-    /* background-position: center; */
-    /* background-repeat: repeat-y; */
-    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0;
-    /* height: 100vh; */
-    width: 100%;
+    background-image: url(../assets/img/background.jpg);
+    margin: 0;
+    width: 90%;
     user-select: none;
 }
 

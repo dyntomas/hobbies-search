@@ -285,13 +285,8 @@
         "subCategory": "Indoors"
     },
     {
-        "title": "Fishkeeping",
-        "category": "Animals",
-        "subCategory": "Indoors"
-    },
-    {
         "title": "Filmmaking",
-        "category": "General",
+        "category": "Observationl",
         "subCategory": "Indoors"
     },
     {
@@ -426,7 +421,7 @@
     },
     {
         "title": "Knife making",
-        "category": "General",
+        "category": "DIY/Smithing",
         "subCategory": "Indoors"
     },
     {
@@ -471,7 +466,7 @@
     },
     {
         "title": "Listening to podcasts",
-        "category": "General",
+        "category": "General/Music",
         "subCategory": "Indoors"
     },
     {
@@ -495,18 +490,18 @@
         "subCategory": "Indoors"
     },
     {
-        "title": "Mazes (indoor/outdoor)",
+        "title": "Mazes",
         "category": "Fun",
-        "subCategory": "Indoors"
+        "subCategory": "Indoors/Outdoors"
     },
     {
         "title": "Metalworking",
-        "category": "General",
+        "category": "DIY/Smithing",
         "subCategory": "Indoors"
     },
     {
         "title": "Model building",
-        "category": "General",
+        "category": "DIY/Building",
         "subCategory": "Indoors"
     },
     {
@@ -706,7 +701,7 @@
     },
     {
         "title": "Taxidermy",
-        "category": "General",
+        "category": "Observation/Nature/Animals",
         "subCategory": "Indoors"
     },
     {
@@ -716,7 +711,7 @@
     },
     {
         "title": "Video editing",
-        "category": "Art",
+        "category": "Art/Computer",
         "subCategory": "Indoors"
     },
     {
@@ -736,7 +731,7 @@
     },
     {
         "title": "Watching movies",
-        "category": "General",
+        "category": "Observation",
         "subCategory": "Indoors"
     },
     {
@@ -806,12 +801,12 @@
     },
     {
         "title": "Writing",
-        "category": "General",
+        "category": "Observation",
         "subCategory": "Indoors"
     },
     {
         "title": "Word searches",
-        "category": "General",
+        "category": "Observation/Puzzle",
         "subCategory": "Indoors"
     },
     {
@@ -821,17 +816,17 @@
     },
     {
         "title": "Yoga",
-        "category": "General",
+        "category": "Observation/Relaxing",
         "subCategory": "Indoors"
     },
     {
         "title": "Zumba",
-        "category": "General",
+        "category": "Observation/Fitness/Workout",
         "subCategory": "Indoors"
     },
     {
         "title": "Amusement park visiting",
-        "category": "General",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
@@ -960,11 +955,6 @@
         "subCategory": "Outdoors"
     },
     {
-        "title": "Cycling",
-        "category": "Sport",
-        "subCategory": "Outdoors"
-    },
-    {
         "title": "Dowsing",
         "category": "General",
         "subCategory": "Outdoors"
@@ -981,7 +971,7 @@
     },
     {
         "title": "Fishing",
-        "category": "Sport",
+        "category": "Competitive/Sport/Nature/Animals",
         "subCategory": "Outdoors"
     },
     {
@@ -1036,12 +1026,12 @@
     },
     {
         "title": "Gardening",
-        "category": "General",
+        "category": "Nature/Plants",
         "subCategory": "Outdoors"
     },
     {
         "title": "Growing fruit and veg",
-        "category": "General/Gardening",
+        "category": "General/Plants/Gardening",
         "subCategory": "Outdoors"
     },
     {
@@ -1066,12 +1056,12 @@
     },
     {
         "title": "Handball",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
         "title": "Herbalism",
-        "category": "Nature",
+        "category": "Nature/Plants",
         "subCategory": "Outdoors"
     },
     {
@@ -1106,12 +1096,12 @@
     },
     {
         "title": "Horseback riding",
-        "category": "Sport",
+        "category": "Competitive/Sport/Nature/Animals",
         "subCategory": "Outdoors"
     },
     {
         "title": "Hunting",
-        "category": "General",
+        "category": "Competitive/Sport/Nature/Animals",
         "subCategory": "Outdoors"
     },
     {
@@ -1331,7 +1321,7 @@
     },
     {
         "title": "Skiing",
-        "category": "Sport",
+        "category": "Competitive/Sport",
         "subCategory": "Outdoors"
     },
     {
@@ -1381,27 +1371,27 @@
     },
     {
         "title": "Surfing",
-        "category": "Sport",
+        "category": "Competitive/Sport/Water/Board",
         "subCategory": "Outdoors"
     },
     {
         "title": "Survivalism",
-        "category": "General",
+        "category": "Observation/Nature",
         "subCategory": "Outdoors"
     },
     {
         "title": "Swimming",
-        "category": "Sport",
+        "category": "Competitive/Sport/Water",
         "subCategory": "Outdoors"
     },
     {
         "title": "Taekwondo",
-        "category": "Sport",
+        "category": "Competitive/Sport/Martial Arts",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tai chi",
-        "category": "General",
+        "category": "Observation/Relaxing",
         "subCategory": "Outdoors"
     },
     {
@@ -1411,57 +1401,52 @@
     },
     {
         "title": "Topiary",
-        "category": "General",
+        "category": "Nature/Plants",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tourism",
-        "category": "General",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
         "title": "Trade fair visiting",
-        "category": "General",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
         "title": "Travel",
-        "category": "General",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
         "title": "Urban exploration",
-        "category": "General",
+        "category": "Observation/Travel/Buildings",
         "subCategory": "Outdoors"
     },
     {
         "title": "Vacation",
-        "category": "General",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
         "title": "Vegetable farming",
-        "category": "General",
-        "subCategory": "Outdoors"
-    },
-    {
-        "title": "Videography",
-        "category": "General",
+        "category": "Nature/Plants/Gardening",
         "subCategory": "Outdoors"
     },
     {
         "title": "Vehicle restoration",
-        "category": "General",
+        "category": "DIY",
         "subCategory": "Outdoors"
     },
     {
         "title": "Walking",
-        "category": "General",
+        "category": "Observation/Fitness/Workout",
         "subCategory": "Outdoors"
     },
     {
         "title": "Water sports",
-        "category": "General",
+        "category": "Competitive/Sport/Water",
         "subCategory": "Outdoors"
     },
     {
@@ -1701,7 +1686,7 @@
     },
     {
         "title": "Video game collecting",
-        "category": "Collection",
+        "category": "Collection/Games",
         "subCategory": "Indoors"
     },
     {
@@ -1875,8 +1860,8 @@
         "subCategory": "Indoors"
     },
     {
-        "title": "Esports",
-        "category": "Competitive/Computer games",
+        "title": "E-sports",
+        "category": "Competitive/Sport/Computer games",
         "subCategory": "Indoors"
     },
     {
@@ -2216,7 +2201,7 @@
     },
     {
         "title": "Skiing",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
@@ -2231,32 +2216,32 @@
     },
     {
         "title": "Speed skating",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Squash",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Surfing",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Swimming",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Table tennis",
-        "category": "Competitive/Sport/Table top",
+        "category": "Competitive/Sport/Fitness/Table top",
         "subCategory": "Outdoors"
     },
     {
         "title": "Tennis",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
@@ -2276,7 +2261,7 @@
     },
     {
         "title": "Tourism",
-        "category": "Exploring",
+        "category": "Observation/Travel",
         "subCategory": "Outdoors"
     },
     {
@@ -2286,22 +2271,22 @@
     },
     {
         "title": "Triathlon",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Volleyball",
-        "category": "Competitive/Sport",
+        "category": "Competitive/Sport/Fitness",
         "subCategory": "Outdoors"
     },
     {
         "title": "Water polo",
-        "category": "Competitive/Riding",
+        "category": "Competitive/Sport/Equestrianism",
         "subCategory": "Outdoors"
     },
     {
         "title": "Fishkeeping",
-        "category": "Observation/Nature",
+        "category": "Observation/Nature/Animals",
         "subCategory": "Indoors"
     },
     {
@@ -2351,7 +2336,7 @@
     },
     {
         "title": "Birdwatching",
-        "category": "Observation/Nature",
+        "category": "Observation/Nature/Animals",
         "subCategory": "Outdoors"
     },
     {
@@ -2361,7 +2346,7 @@
     },
     {
         "title": "Geocaching",
-        "category": "Observation/Travel",
+        "category": "Observation/Travel/Hunting",
         "subCategory": "Outdoors"
     },
     {
@@ -2376,7 +2361,7 @@
     },
     {
         "title": "Hiking",
-        "category": "Observation",
+        "category": "Observation/Travel/Fitness",
         "subCategory": "Outdoors"
     },
     {

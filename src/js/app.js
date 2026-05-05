@@ -11,11 +11,13 @@ function select(target) {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
+   window.addEventListener("contextmenu", e => e.preventDefault());  
+
     /**
       * @type {string}
       */
     const config = require('../data/config.base64');
-    const version = "1.2-24042026";
+    const version = require("../../version.json")[0];
     const search = document.querySelector("#search")
     /**
      * @type {Array<Object>}
