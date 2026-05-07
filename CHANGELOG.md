@@ -5,8 +5,8 @@
 - Spaced out buttons
 - Scrolling background image
 - Now installable as a `PWA`
-- List now random
-- More filters for items
+- List is now random
+- Search is now working properly
 
 ## Technical
 
