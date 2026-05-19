@@ -17,7 +17,7 @@
   {
     "title": "Circus skills",
     "category": "Proforming/Drama",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Amateur radio",
@@ -197,12 +197,12 @@
   {
     "title": "Crossword puzzles",
     "category": "General",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Puzzles",
     "category": "General",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Cryptography",
@@ -262,7 +262,7 @@
   {
     "title": "Electronics",
     "category": "Tech",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Embroidery",
@@ -282,22 +282,22 @@
   {
     "title": "Fashion",
     "category": "General",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Fashion design",
     "category": "General",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Filmmaking",
     "category": "Observationl",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Flower arranging",
     "category": "Nature",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Fly tying",
@@ -367,7 +367,7 @@
   {
     "title": "Houseplant care",
     "category": "Nature",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Hula hooping",
@@ -562,12 +562,12 @@
   {
     "title": "Pressed flower craft",
     "category": "Nature",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Playing musical instruments",
-    "category": "Music",
-    "subCategory": "Indoors"
+    "category": "Proforming/Music",
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Poi",
@@ -627,17 +627,17 @@
   {
     "title": "Rubik's Cube",
     "category": "Puzzle",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Scrapbooking",
     "category": "Art",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Sculpting",
     "category": "Art",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Sewing",
@@ -651,7 +651,7 @@
   },
   {
     "title": "Singing",
-    "category": "Music",
+    "category": "Proforming/Music",
     "subCategory": "Indoors"
   },
   {
@@ -737,7 +737,7 @@
   {
     "title": "Watching movies",
     "category": "Observation",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Watching television",
@@ -767,7 +767,7 @@
   {
     "title": "Welding",
     "category": "DIY",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Whittling",
@@ -786,8 +786,8 @@
   },
   {
     "title": "Wood carving",
-    "category": "Woodworking",
-    "subCategory": "Indoors"
+    "category": "DIY/Building/Woodworking",
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Woodworking",
@@ -807,27 +807,27 @@
   {
     "title": "Writing",
     "category": "Observation",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Word searches",
     "category": "Observation/Puzzle",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Yo-yoing",
     "category": "General",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Yoga",
-    "category": "Observation/Relaxing",
-    "subCategory": "Indoors"
+    "category": "Observation/Fitness/Workout/Relaxing",
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Zumba",
     "category": "Observation/Fitness/Workout",
-    "subCategory": "Indoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Amusement park visiting",
@@ -852,12 +852,12 @@
   {
     "title": "Archery",
     "category": "Sport",
-    "subCategory": "Outdoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Astronomy",
     "category": "Science",
-    "subCategory": "Outdoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Backpacking",
@@ -867,7 +867,7 @@
   {
     "title": "Badminton",
     "category": "Sport",
-    "subCategory": "Outdoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Base jumping",
@@ -916,12 +916,12 @@
   },
   {
     "title": "Bonsai",
-    "category": "General",
-    "subCategory": "Outdoors"
+    "category": "Nature/Plants/Gardening",
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Butterfly watching",
-    "category": "Nature",
+    "category": "Observation/Nature/Amimals",
     "subCategory": "Outdoors"
   },
   {
@@ -931,17 +931,17 @@
   },
   {
     "title": "Camping",
-    "category": "Nature",
+    "category": "Observation/Nature",
     "subCategory": "Outdoors"
   },
   {
     "title": "Canoeing",
-    "category": "Sport",
+    "category": "Competitive/Sport/Water",
     "subCategory": "Outdoors"
   },
   {
     "title": "Canyoning",
-    "category": "General",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
@@ -951,12 +951,12 @@
   },
   {
     "title": "Caving",
-    "category": "General",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
     "title": "Composting",
-    "category": "Nature",
+    "category": "Nature/Plants/Gardening",
     "subCategory": "Outdoors"
   },
   {
@@ -971,8 +971,8 @@
   },
   {
     "title": "Farming",
-    "category": "General",
-    "subCategory": "Outdoors"
+    "category": "Observation/Nature/Plants/Food",
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Fishing",
@@ -991,32 +991,32 @@
   },
   {
     "title": "Flying",
-    "category": "General",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
     "title": "Flying disc",
-    "category": "General",
+    "category": "Observation/Sport",
     "subCategory": "Outdoors"
   },
   {
     "title": "Foraging",
-    "category": "Nature",
+    "category": "Observation/Nature/Plants/Food",
     "subCategory": "Outdoors"
   },
   {
     "title": "Tree climbing",
-    "category": "Nature",
+    "category": "Nature/Plants",
     "subCategory": "Outdoors"
   },
   {
     "title": "Bush sculptures",
-    "category": "Nature",
+    "category": "Art/Nature/Plants",
     "subCategory": "Outdoors"
   },
   {
     "title": "Trailcams",
-    "category": "Nature",
+    "category": "Observation/Nature/Amimals",
     "subCategory": "Outdoors"
   },
   {
@@ -1027,11 +1027,11 @@
   {
     "title": "Freestyle football",
     "category": "Competitive/Sport",
-    "subCategory": "Outdoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Gardening",
-    "category": "Nature/Plants",
+    "category": "Observation/Nature/Plants/Food",
     "subCategory": "Outdoors"
   },
   {
@@ -1046,12 +1046,12 @@
   },
   {
     "title": "Ghost hunting",
-    "category": "General",
+    "category": "Observation",
     "subCategory": "Outdoors"
   },
   {
     "title": "Gold prospecting",
-    "category": "General",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
@@ -1062,11 +1062,11 @@
   {
     "title": "Handball",
     "category": "Competitive/Sport",
-    "subCategory": "Outdoors"
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Herbalism",
-    "category": "Nature/Plants",
+    "category": "Nature/Plants/Gardening",
     "subCategory": "Outdoors"
   },
   {
@@ -1081,7 +1081,7 @@
   },
   {
     "title": "Hiking",
-    "category": "General",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
@@ -1111,12 +1111,12 @@
   },
   {
     "title": "Inline skating",
-    "category": "Sport",
+    "category": "Competitive/Sport",
     "subCategory": "Outdoors"
   },
   {
     "title": "Jogging",
-    "category": "General",
+    "category": "Competitive/Sport/Fitness",
     "subCategory": "Outdoors"
   },
   {
@@ -1126,7 +1126,7 @@
   },
   {
     "title": "Kayaking",
-    "category": "Sport",
+    "category": "Competitive/Sport/Water",
     "subCategory": "Outdoors"
   },
   {
@@ -1136,7 +1136,7 @@
   },
   {
     "title": "Kitesurfing",
-    "category": "Sport",
+    "category": "Competitive/Sport/Water",
     "subCategory": "Outdoors"
   },
   {
@@ -1156,7 +1156,7 @@
   },
   {
     "title": "Martial arts",
-    "category": "Sport",
+    "category": "Competitive/Sport/Fitness",
     "subCategory": "Outdoors"
   },
   {
@@ -1171,17 +1171,17 @@
   },
   {
     "title": "Motor sports",
-    "category": "Sport",
+    "category": "Competitive/Sport/Driving/Cars",
     "subCategory": "Outdoors"
   },
   {
     "title": "Mountain biking",
-    "category": "Sport",
+    "category": "Competitive/Sport/Driving/Bikes",
     "subCategory": "Outdoors"
   },
   {
     "title": "Mountaineering",
-    "category": "Nature",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
@@ -1457,57 +1457,57 @@
   {
     "title": "Astronomy",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Outdoors"
   },
   {
     "title": "Biology",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Outdoors"
   },
   {
     "title": "Chemistry",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors"
   },
   {
     "title": "Electrochemistry",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors"
   },
   {
     "title": "Physics",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Psychology",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors"
   },
   {
     "title": "Sports science",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Geography",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "History",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Mathematics",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Railway studies",
     "category": "Educational",
-    "subCategory": false
+    "subCategory": "Indoors/Outdoors"
   },
   {
     "title": "Action figure",
@@ -1986,17 +1986,17 @@
   },
   {
     "title": "Wrestling",
-    "category": "Competitive/Sport",
+    "category": "Competitive/Sport/Fighting",
     "subCategory": "Indoors"
   },
   {
     "title": "Airsoft",
-    "category": "Competitive/Sport",
+    "category": "Competitive/Sport/Shooting",
     "subCategory": "Outdoors"
   },
   {
     "title": "Archery",
-    "category": "Competitive/Sport",
+    "category": "Competitive/Sport/Shooting",
     "subCategory": "Outdoors"
   },
   {
@@ -2061,7 +2061,7 @@
   },
   {
     "title": "Exhibition drill",
-    "category": "Observation/Exploring",
+    "category": "Observation/Nature/Exploring",
     "subCategory": "Outdoors"
   },
   {
@@ -2396,7 +2396,7 @@
   },
   {
     "title": "Whale watching",
-    "category": "Observation/Nature",
+    "category": "Observation/Nature/Amimals",
     "subCategory": "Outdoors"
   }
 ]

@@ -1,3 +1,5 @@
+import { version } from '../../package.json';
+
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -17,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       * @type {string}
       */
     const config = require('../data/config.base64');
-    const version = require("../../version.json")[0];
+    const ver = version;
     const search = document.querySelector("#search")
     /**
      * @type {Array<Object>}
@@ -70,10 +72,10 @@ document.addEventListener("DOMContentLoaded", async () => {
         })
     })
 
-        /***************************************/
+    /***************************************/
     // * Infobox
     /***************************************/
-    select("#version").innerText = version
+    select("#version").innerText = ver
     select("#sitename").innerText = document.querySelector("title").innerText
 
     /***************************************/
