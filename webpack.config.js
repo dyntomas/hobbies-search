@@ -13,7 +13,7 @@ const config = {
     entry: "./src/index.js",
     output: {
         path: path.resolve(__dirname, 'public'),
-        filename: 'assets/[name].[contenthash].js',
+        filename: 'assets/[name].js',
         clean: true
     },
     module: {
@@ -36,7 +36,7 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            // hash: true
+            inject: "body"
         }),
         new FileManagerPlugin({
             events: {
@@ -51,7 +51,7 @@ const config = {
             }
         }),
         new MiniCssExtractPlugin({
-            filename: "assets/[name].[contenthash].css"
+            filename: "assets/[name].css"
         }),
         new GenerateSW({
             swDest: "sw.js",

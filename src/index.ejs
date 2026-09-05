@@ -11,17 +11,20 @@
 </head>
 
 <body>
-    <div id="content" align="center"><img src="assets/img/logo.png" class="logo" alt="img/logo.png"><br /><input
-            type="search" id="search" placeholder="Search through hobbies.." title="Type in a hobbie">
-        <p>Click on an item to do a web search about the topic.</p>
+    <div id="content" align="center">
+        <img src="assets/img/logo.png" class="logo" alt="img/logo.png"><br />
+        <div id="header">
+            <input type="search" id="search" placeholder="Search through hobbies.." title="Type in a hobbie">
+            <button id="btn1">Shuffle</button>
+
+            <p>Click on an item to do a web search about the topic, or click shuffle to randomize.</p>
+        </div>
         <div id="boxes"></div>
     </div>
     <div id="infobox" popover>
         <p><strong id="sitename"></strong></p>
         <p>Version: <strong id="version"></strong></p><br>
         <ul class="no-bullets">
-            <li><i class="icon-github-circled"></i><a href="https://github.com/dyntomas/hobbies-search">Source Code</a>
-            </li>
             <li><i class="icon-link-ext"></i><a href="https://updates.dyntomas.com/projects/hobbies">Updates</a></li>
             <li><i class="icon-link-ext"></i><a href="https://hub.dyntomas.com/">Hub</a></li>
             <li><i class="icon-link-ext"></i></i><a href="https://hub.dyntomas.com/privacy">Privacy</a></li>

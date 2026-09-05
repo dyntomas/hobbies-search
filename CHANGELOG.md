@@ -7,6 +7,7 @@
 - Now installable as a `PWA`
 - List is now random
 - Search is now working properly
+- New shuffle button
 
 ## Technical
 
@@ -16,3 +17,4 @@
 - Removed `X-UA-Compatible` meta tag
 - Replaced `Font Awesome` with `Fontello`
 - Fix images and scaling
+- Added a loading delay to stop style flashes

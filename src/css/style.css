@@ -1,16 +1,8 @@
-:root {
-  color-scheme: light only;
-}
-
-a {
-    text-decoration: none;
-    color: #f8f8ff
-}
-
 body {
+    /* color-scheme: light only; */
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../assets/img/background.jpg);
+    background: lightblue url(../assets/img/background.jpg);
     margin: 0;
     width: 90%;
     user-select: none;
@@ -22,18 +14,27 @@ footer {
     bottom: 0;
     width: 100%
 }
-#content p {
-    font-size: 20px;
-    padding: 10px;
-    background: linear-gradient(180deg, rgba(31, 165, 50, 1) 0, rgba(60, 197, 104, 1) 30%, rgba(120, 213, 148, 1) 50%, rgba(60, 197, 104, 1) 70%, rgba(31, 165, 50, 1) 100%);
-    color: #fff;
+
+#content {
+    display: none;
 }
 
+#content p {
+    font-size: inherit;
+    padding: 10px;
+    background: linear-gradient(180deg, rgba(31, 165, 50, 1) 0, rgba(60, 197, 104, 1) 30%, rgba(120, 213, 148, 1) 50%, rgba(60, 197, 104, 1) 70%, rgba(31, 165, 50, 1) 100%);
+}
+
+#header,
 #boxes,
-#search,
 #content p {
     width: 100%;
     max-width: 800px;
+}
+
+#boxes,
+#content p {
+    color: white;
     border-radius: 5px;
 }
 
@@ -46,11 +47,24 @@ footer {
     border-radius: 10px;
 }
 
-#search {
+.box a {
+    text-decoration: none;
+    color: white;
+}
+
+#search, #btn1 {
     font-size: 16px;
     padding: 12px 20px 12px;
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
     margin-bottom: 12px;
+}
+
+#search {
+    width: 80%;
+}
+
+#btn1:hover {
+    background: lightgray;
 }
 
 .logo {
